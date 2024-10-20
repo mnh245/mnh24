@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 75px;
+}
+.img-main{
+    position: relative;
+}
+.img-main img{
+    position: absolute;
+    top:50px;
+    right: -490px;
+}
+.img-press{
+    margin-top: 20px;
+    margin-right: 270px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 500px;
+    color: black;
+}
+.text{
+    font-size: 64px;
+    font-weight: 900;
+}
