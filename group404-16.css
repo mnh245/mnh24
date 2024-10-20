@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgba(255, 211, 211, 1);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.img-main{
+    position: relative;
+}
+.img-main img{
+    position: absolute;
+    top:56px;
+    right:-500px
+}
+.img-press{
+    margin-top: 25px;
+    margin-right: 100px;
+}
+button{
+    border-radius: 40px;
+    background-color:#FFEEEE;
+    margin-top: 550px;
+    min-width: 120px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+}
+.text{
+    font-weight: 800;
+    font-size: 24px;
+    font-family: Avenir Next;
+}
