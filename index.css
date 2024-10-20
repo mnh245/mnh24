@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('path/to/avenir-next.woff2') format('woff2'),
+         url('path/to/avenir-next.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.container{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+}
+.button{
+    text-decoration: none;
+    display:flex;
+    height:30px;
+    align-items: center;
+}
+button{
+    border-radius: 40px;
+    background-color:#FFEEEE;
+}
+h1{
+    font-size: 60px;
+    font-weight: 900;
+    margin: 0px;
+}
